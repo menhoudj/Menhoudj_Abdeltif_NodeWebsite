@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import './App.css'
+import menhoudjProfileFoto from './assets/menhoudjprofilefoto.gif'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { 
   faEnvelope, faShieldAlt, faCode, faGlobe, faCogs, faSearch,
@@ -365,7 +366,7 @@ function App() {
             </div>
             <div className="hero-right">
               <div className="hero-image-wrapper">
-                <img src="/menhoudjprofilefoto.gif" alt="Menhoudj Abdelatif" className="hero-image" />
+                <img src={menhoudjProfileFoto} alt="Menhoudj Abdelatif" className="hero-image" />
                 <div className="hero-image-border"></div>
                 <div className="hero-float-badge top-right">
                   <span className="float-icon">🎯</span>
@@ -391,7 +392,7 @@ function App() {
         <div className="container">
           <div className="about-grid">
             <div className="about-image-container fade-in">
-              <img src="/menhoudjprofilefoto.gif" alt="Menhoudj" className="about-image" />
+              <img src={menhoudjProfileFoto} alt="Menhoudj" className="about-image" />
               <div className="about-decoration"></div>
             </div>
             <div className="about-content fade-in">
